@@ -1,0 +1,44 @@
+[13-Jul-2021 18:24:29 UTC] Sync process for Gutenberg Blocks has started.
+[13-Jul-2021 18:24:29 UTC] CATEGORY:Importing categories..
+[13-Jul-2021 18:24:30 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[13-Jul-2021 18:24:30 UTC] CATEGORY:Completed category import.
+[13-Jul-2021 18:24:30 UTC] BLOCK: Getting Total Blocks
+[13-Jul-2021 18:24:30 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg
+[13-Jul-2021 18:24:30 UTC] BLOCK: Requests count 3
+[13-Jul-2021 18:24:30 UTC] BLOCK: Importing request 1 ..
+[13-Jul-2021 18:24:30 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1
+[13-Jul-2021 18:24:31 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[13-Jul-2021 18:24:31 UTC] BLOCK: Completed request 1
+[13-Jul-2021 18:24:31 UTC] BLOCK: Importing request 2 ..
+[13-Jul-2021 18:24:31 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2
+[13-Jul-2021 18:24:31 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[13-Jul-2021 18:24:31 UTC] BLOCK: Completed request 2
+[13-Jul-2021 18:24:31 UTC] BLOCK: Importing request 3 ..
+[13-Jul-2021 18:24:31 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3
+[13-Jul-2021 18:24:32 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[13-Jul-2021 18:24:32 UTC] BLOCK: Completed request 3
+[13-Jul-2021 18:24:32 UTC] SITE: Getting Total Sites
+[13-Jul-2021 18:24:32 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[13-Jul-2021 18:24:32 UTC] SITE: Request count 1
+[13-Jul-2021 18:24:32 UTC] SITE: Importing request 1 ..
+[13-Jul-2021 18:24:32 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[13-Jul-2021 18:24:33 UTC] SITE: Storing in option ast-block-templates-sites-1
+[13-Jul-2021 18:24:33 UTC] SITE: Completed request 1
+[13-Jul-2021 18:24:33 UTC] Sync process for Gutenberg Blocks is done.
+[13-Jul-2021 20:29:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ma_el_fs_uninstall_cleanup' not found or invalid function name in C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php on line 292
+[13-Jul-2021 20:29:26 UTC] PHP Stack trace:
+[13-Jul-2021 20:29:26 UTC] PHP   1. {main}() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:0
+[13-Jul-2021 20:29:26 UTC] PHP   2. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:187
+[13-Jul-2021 20:29:26 UTC] PHP   3. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[13-Jul-2021 20:29:26 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
+[13-Jul-2021 20:29:26 UTC] PHP   5. wp_ajax_delete_plugin() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:292
+[13-Jul-2021 20:29:26 UTC] PHP   6. delete_plugins() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\includes\ajax-actions.php:4581
+[13-Jul-2021 20:29:26 UTC] PHP   7. uninstall_plugin() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\includes\plugin.php:967
+[13-Jul-2021 20:29:26 UTC] PHP   8. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\includes\plugin.php:1286
+[13-Jul-2021 20:29:26 UTC] PHP   9. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[13-Jul-2021 20:29:26 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
+[13-Jul-2021 20:29:26 UTC] PHP  11. Freemius::_uninstall_plugin_hook() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:292
+[13-Jul-2021 20:29:26 UTC] PHP  12. Freemius->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\master-addons\lib\freemius\includes\class-freemius.php:9908
+[13-Jul-2021 20:29:26 UTC] PHP  13. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\master-addons\lib\freemius\includes\class-freemius.php:18871
+[13-Jul-2021 20:29:26 UTC] PHP  14. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[13-Jul-2021 20:29:26 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
