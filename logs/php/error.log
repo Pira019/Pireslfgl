@@ -96,3 +96,87 @@
 [11-Aug-2021 18:19:11 UTC] SITE: Storing in option ast-block-templates-sites-1
 [11-Aug-2021 18:19:11 UTC] SITE: Completed request 1
 [11-Aug-2021 18:19:11 UTC] Sync process for Gutenberg Blocks is done.
+[15-Aug-2021 11:54:38 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 1749
+[15-Aug-2021 11:54:38 UTC] PHP Stack trace:
+[15-Aug-2021 11:54:38 UTC] PHP   1. {main}() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:0
+[15-Aug-2021 11:54:38 UTC] PHP   2. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:187
+[15-Aug-2021 11:54:38 UTC] PHP   3. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[15-Aug-2021 11:54:38 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
+[15-Aug-2021 11:54:38 UTC] PHP   5. Astra_Sites->required_plugin() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:292
+[15-Aug-2021 11:54:38 UTC] PHP   6. stripslashes() C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php:1749
+[15-Aug-2021 11:55:33 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 1749
+[15-Aug-2021 11:55:33 UTC] PHP Stack trace:
+[15-Aug-2021 11:55:33 UTC] PHP   1. {main}() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:0
+[15-Aug-2021 11:55:33 UTC] PHP   2. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:187
+[15-Aug-2021 11:55:33 UTC] PHP   3. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[15-Aug-2021 11:55:33 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
+[15-Aug-2021 11:55:33 UTC] PHP   5. Astra_Sites->required_plugin() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:292
+[15-Aug-2021 11:55:33 UTC] PHP   6. stripslashes() C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php:1749
+[15-Aug-2021 11:55:40 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 1749
+[15-Aug-2021 11:55:40 UTC] PHP Stack trace:
+[15-Aug-2021 11:55:40 UTC] PHP   1. {main}() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:0
+[15-Aug-2021 11:55:40 UTC] PHP   2. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:187
+[15-Aug-2021 11:55:40 UTC] PHP   3. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[15-Aug-2021 11:55:40 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
+[15-Aug-2021 11:55:40 UTC] PHP   5. Astra_Sites->required_plugin() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:292
+[15-Aug-2021 11:55:40 UTC] PHP   6. stripslashes() C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php:1749
+[15-Aug-2021 11:55:47 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 1749
+[15-Aug-2021 11:55:47 UTC] PHP Stack trace:
+[15-Aug-2021 11:55:47 UTC] PHP   1. {main}() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:0
+[15-Aug-2021 11:55:47 UTC] PHP   2. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:187
+[15-Aug-2021 11:55:47 UTC] PHP   3. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[15-Aug-2021 11:55:47 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
+[15-Aug-2021 11:55:47 UTC] PHP   5. Astra_Sites->required_plugin() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:292
+[15-Aug-2021 11:55:47 UTC] PHP   6. stripslashes() C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php:1749
+[15-Aug-2021 11:56:12 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 1749
+[15-Aug-2021 11:56:12 UTC] PHP Stack trace:
+[15-Aug-2021 11:56:12 UTC] PHP   1. {main}() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:0
+[15-Aug-2021 11:56:12 UTC] PHP   2. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:187
+[15-Aug-2021 11:56:12 UTC] PHP   3. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[15-Aug-2021 11:56:12 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
+[15-Aug-2021 11:56:12 UTC] PHP   5. Astra_Sites->required_plugin() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:292
+[15-Aug-2021 11:56:12 UTC] PHP   6. stripslashes() C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php:1749
+[15-Aug-2021 12:05:46 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 1749
+[15-Aug-2021 12:05:46 UTC] PHP Stack trace:
+[15-Aug-2021 12:05:46 UTC] PHP   1. {main}() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:0
+[15-Aug-2021 12:05:46 UTC] PHP   2. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:187
+[15-Aug-2021 12:05:46 UTC] PHP   3. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[15-Aug-2021 12:05:46 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
+[15-Aug-2021 12:05:46 UTC] PHP   5. Astra_Sites->required_plugin() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:292
+[15-Aug-2021 12:05:46 UTC] PHP   6. stripslashes() C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php:1749
+[16-Aug-2021 19:27:09 UTC] response was not a 200
+[18-Aug-2021 17:46:06 UTC] Sync process for Gutenberg Blocks has started.
+[18-Aug-2021 17:46:06 UTC] CATEGORY:Importing categories..
+[18-Aug-2021 17:46:07 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[18-Aug-2021 17:46:07 UTC] CATEGORY:Completed category import.
+[18-Aug-2021 17:46:07 UTC] BLOCK: Getting Total Blocks
+[18-Aug-2021 17:46:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg
+[18-Aug-2021 17:46:07 UTC] BLOCK: Requests count 3
+[18-Aug-2021 17:46:07 UTC] BLOCK: Importing request 1 ..
+[18-Aug-2021 17:46:07 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1
+[18-Aug-2021 17:46:07 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[18-Aug-2021 17:46:08 UTC] BLOCK: Completed request 1
+[18-Aug-2021 17:46:08 UTC] BLOCK: Importing request 2 ..
+[18-Aug-2021 17:46:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2
+[18-Aug-2021 17:46:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[18-Aug-2021 17:46:08 UTC] BLOCK: Completed request 2
+[18-Aug-2021 17:46:08 UTC] BLOCK: Importing request 3 ..
+[18-Aug-2021 17:46:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3
+[18-Aug-2021 17:46:09 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[18-Aug-2021 17:46:09 UTC] BLOCK: Completed request 3
+[18-Aug-2021 17:46:09 UTC] SITE: Getting Total Sites
+[18-Aug-2021 17:46:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[18-Aug-2021 17:46:09 UTC] SITE: Request count 1
+[18-Aug-2021 17:46:09 UTC] SITE: Importing request 1 ..
+[18-Aug-2021 17:46:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[18-Aug-2021 17:46:10 UTC] SITE: Storing in option ast-block-templates-sites-1
+[18-Aug-2021 17:46:10 UTC] SITE: Completed request 1
+[18-Aug-2021 17:46:10 UTC] Sync process for Gutenberg Blocks is done.
+[18-Aug-2021 19:22:19 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 1749
+[18-Aug-2021 19:22:19 UTC] PHP Stack trace:
+[18-Aug-2021 19:22:19 UTC] PHP   1. {main}() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:0
+[18-Aug-2021 19:22:19 UTC] PHP   2. do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-admin\admin-ajax.php:187
+[18-Aug-2021 19:22:19 UTC] PHP   3. WP_Hook->do_action() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\plugin.php:484
+[18-Aug-2021 19:22:19 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:316
+[18-Aug-2021 19:22:19 UTC] PHP   5. Astra_Sites->required_plugin() C:\Users\Pira\Local Sites\pires\app\public\wp-includes\class-wp-hook.php:292
+[18-Aug-2021 19:22:19 UTC] PHP   6. stripslashes() C:\Users\Pira\Local Sites\pires\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php:1749
